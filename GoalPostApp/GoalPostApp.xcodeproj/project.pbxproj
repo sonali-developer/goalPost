@@ -13,6 +13,7 @@
 		3B80DC232064A37400D52FD4 /* GoalPostApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC212064A37400D52FD4 /* GoalPostApp.xcdatamodeld */; };
 		3B80DC252064A37400D52FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B80DC242064A37400D52FD4 /* Assets.xcassets */; };
 		3B80DC282064A37400D52FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B80DC262064A37400D52FD4 /* LaunchScreen.storyboard */; };
+		3B80DC342070A59900D52FD4 /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC332070A59900D52FD4 /* GoalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3B80DC242064A37400D52FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B80DC272064A37400D52FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B80DC292064A37400D52FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B80DC332070A59900D52FD4 /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		3B80DC302064A39100D52FD4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3B80DC332070A59900D52FD4 /* GoalTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B80DC342070A59900D52FD4 /* GoalTableViewCell.swift in Sources */,
 				3B80DC232064A37400D52FD4 /* GoalPostApp.xcdatamodeld in Sources */,
 				3B80DC1D2064A37400D52FD4 /* GoalsViewController.swift in Sources */,
 				3B80DC1B2064A37400D52FD4 /* AppDelegate.swift in Sources */,
