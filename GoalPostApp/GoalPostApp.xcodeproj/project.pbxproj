@@ -17,6 +17,8 @@
 		3B80DC362070AFAE00D52FD4 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC352070AFAE00D52FD4 /* GoalType.swift */; };
 		3B80DC38207D2C2B00D52FD4 /* CreateGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC37207D2C2B00D52FD4 /* CreateGoalViewController.swift */; };
 		3B80DC3A207D2EBD00D52FD4 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC39207D2EBD00D52FD4 /* UIViewControllerExt.swift */; };
+		3B80DC3C207D352700D52FD4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC3B207D352700D52FD4 /* UIViewExt.swift */; };
+		3B80DC3E207D390B00D52FD4 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC3D207D390B00D52FD4 /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		3B80DC352070AFAE00D52FD4 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		3B80DC37207D2C2B00D52FD4 /* CreateGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalViewController.swift; sourceTree = "<group>"; };
 		3B80DC39207D2EBD00D52FD4 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		3B80DC3B207D352700D52FD4 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		3B80DC3D207D390B00D52FD4 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				3B80DC39207D2EBD00D52FD4 /* UIViewControllerExt.swift */,
+				3B80DC3B207D352700D52FD4 /* UIViewExt.swift */,
+				3B80DC3D207D390B00D52FD4 /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -187,8 +193,10 @@
 				3B80DC38207D2C2B00D52FD4 /* CreateGoalViewController.swift in Sources */,
 				3B80DC362070AFAE00D52FD4 /* GoalType.swift in Sources */,
 				3B80DC232064A37400D52FD4 /* GoalPostApp.xcdatamodeld in Sources */,
+				3B80DC3C207D352700D52FD4 /* UIViewExt.swift in Sources */,
 				3B80DC1D2064A37400D52FD4 /* GoalsViewController.swift in Sources */,
 				3B80DC3A207D2EBD00D52FD4 /* UIViewControllerExt.swift in Sources */,
+				3B80DC3E207D390B00D52FD4 /* UIButtonExt.swift in Sources */,
 				3B80DC1B2064A37400D52FD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
