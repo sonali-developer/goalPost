@@ -19,6 +19,7 @@
 		3B80DC3A207D2EBD00D52FD4 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC39207D2EBD00D52FD4 /* UIViewControllerExt.swift */; };
 		3B80DC3C207D352700D52FD4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC3B207D352700D52FD4 /* UIViewExt.swift */; };
 		3B80DC3E207D390B00D52FD4 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC3D207D390B00D52FD4 /* UIButtonExt.swift */; };
+		3B80DC40207D996800D52FD4 /* FinishGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80DC3F207D996800D52FD4 /* FinishGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3B80DC39207D2EBD00D52FD4 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		3B80DC3B207D352700D52FD4 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		3B80DC3D207D390B00D52FD4 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		3B80DC3F207D996800D52FD4 /* FinishGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				3B80DC1C2064A37400D52FD4 /* GoalsViewController.swift */,
 				3B80DC37207D2C2B00D52FD4 /* CreateGoalViewController.swift */,
+				3B80DC3F207D996800D52FD4 /* FinishGoalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			files = (
 				3B80DC342070A59900D52FD4 /* GoalTableViewCell.swift in Sources */,
 				3B80DC38207D2C2B00D52FD4 /* CreateGoalViewController.swift in Sources */,
+				3B80DC40207D996800D52FD4 /* FinishGoalViewController.swift in Sources */,
 				3B80DC362070AFAE00D52FD4 /* GoalType.swift in Sources */,
 				3B80DC232064A37400D52FD4 /* GoalPostApp.xcdatamodeld in Sources */,
 				3B80DC3C207D352700D52FD4 /* UIViewExt.swift in Sources */,
